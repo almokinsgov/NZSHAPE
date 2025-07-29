@@ -6,8 +6,8 @@
     PROXY: "https://corsproxy.io/?",
 
     // Filtering & Display Settings
-    SHOW_EXPIRED_ALERTS: false,
-    SHOW_NON_FAR_NORTH_ALERTS: false,
+    SHOW_EXPIRED_ALERTS: true,
+    SHOW_NON_FAR_NORTH_ALERTS: true,
     REQUIRE_ONSET_WITHIN_WINDOW: true,
     HOUR_WINDOW: 24,
 
