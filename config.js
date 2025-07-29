@@ -6,6 +6,7 @@
     PROXY: "https://corsproxy.io/?",
 
     // Filtering & Display Settings
+    USE_PROXY: true, // Toggle to enable or disable proxy usage
     SHOW_EXPIRED_ALERTS: false,
     SHOW_NON_FAR_NORTH_ALERTS: false,
     REQUIRE_ONSET_WITHIN_WINDOW: true,
