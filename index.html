@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Alerts – Far North District</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS for Floating Alerts UI -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/almokinsgov/NZSHAPE@main/style.css">
+
+  <!-- Dependencies -->
+  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
+  <!-- Modules -->
+  <script src="https://cdn.jsdelivr.net/gh/almokinsgov/NZSHAPE@main/config101c.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/almokinsgov/NZSHAPE@main/map.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/almokinsgov/NZSHAPE@main/alert102.js"></script>
+</head> 
+<body>
+
+  <!-- Floating Alerts UI -->
+  <div id="floating-alerts-container"></div>
+  <button id="toggle-alerts-btn" title="Weather Alerts">🌧️</button>
+
+  <!-- Startup -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      AlertModule.fetchAndDisplayAlerts(AlertConfig);
+
+      const toggleBtn = document.getElementById("toggle-alerts-btn");
+      toggleBtn.addEventListener("click", () => {
+        const container = document.getElementById("floating-alerts-container");
+        container.style.display = (container.style.display === "none" || !container.style.display) ? "block" : "none";
+      });
+    });
+  </script>
+</body>
+</html>
