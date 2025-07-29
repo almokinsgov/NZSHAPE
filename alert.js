@@ -2,8 +2,8 @@
 (function (global) {
   async function fetchAndDisplayAlerts(config) {
     const geoJSON = await global.MapModule.loadFarNorthGeoJSON();
-    const proxy = AlertConfig.USE_PROXY ? AlertConfig.PROXY : "";
-    const feedUrl = proxy + AlertConfig.FEED_URL;
+    const proxy = config.PROXY || "https://corsproxy.io/?";
+    const res = await fetch(proxy + encodeURIComponent(config.FEED_URL));
     const xmlText = await res.text();
     const xml = new DOMParser().parseFromString(xmlText, "application/xml");
     const ns = "http://www.w3.org/2005/Atom";
