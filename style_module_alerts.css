@@ -1,0 +1,115 @@
+/* style.css – Alert and Floating Panel Styles */
+
+.alert-card {
+  background: #fff0f0;
+  border-left: 5px solid #ffa500;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.far-north {
+  border-left-color: #dc3545;
+}
+
+#floating-alerts-container {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 450px;
+  max-height: 70vh;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 13.8px;
+  line-height: normal;
+}
+
+#toggle-alerts-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 48px;
+  height: 48px;
+  background: #ffcc00;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+#toggle-alerts-btn:hover {
+  background: #ffaa00;
+}
+
+@media (max-width: 600px) {
+  #floating-alerts-container {
+    width: 90vw;
+    right: 0.5rem;
+    left: 0.5rem;
+    bottom: 4rem;
+    max-height: 60vh;
+    font-size: 13.8px;
+    line-height: normal;
+  }
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  margin-top: 4px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Colour-coded alert classes */
+.alert-default {
+  border-left-color: #ffa500;
+  background: #fffaf0;
+}
+
+.alert-orange {
+  border-left-color: #FF8918;
+  background: #fff3e0;
+}
+
+.alert-red {
+  border-left-color: #d32f2f;
+  background: #fdecea;
+}
+
+.alert-yellow {
+  border-left-color: #fbc02d;
+  background: #fffde7;
+}
+
+.alert-green {
+  border-left-color: #388e3c;
+  background: #e8f5e9;
+}
+
+/* Badge variants */
+.badge.alert-orange { background: #FF8918; }
+.badge.alert-red { background: #d32f2f; }
+.badge.alert-yellow { background: #fbc02d; color: black; }
+.badge.alert-green { background: #388e3c; }
+
+.active-badge { background: #e53935; color: white; }
+.upcoming-badge { background: #e53935; color: white; }
+.expired-badge { background: #9e9e9e; color: white; }
+
+/* Optional override styling (future use) */
+.active-now {}
+.upcoming {}
