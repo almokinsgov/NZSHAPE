@@ -1,4 +1,5 @@
-// alert.js – Core Alert Loader & Display //version 1.0.1
+// alert.js – Core Alert Loader & Display 
+//version 1.0.1
 (function (global) {
   async function fetchAndDisplayAlerts(config) {
     const geoJSON = await global.MapModule.loadFarNorthGeoJSON();
