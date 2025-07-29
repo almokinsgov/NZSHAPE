@@ -1,7 +1,7 @@
 // config.js – Configurable Settings for Alert System
 (function (global) {
   global.AlertConfig = {
-    VERSION: "1.0.0",
+    VERSION: "1.0.1", //proxy config addition
     FEED_URL: "https://raw.githubusercontent.com/almokinsgov/NZSHAPE/main/alerts/latest.xml",
     PROXY: "https://corsproxy.io/?",
 
