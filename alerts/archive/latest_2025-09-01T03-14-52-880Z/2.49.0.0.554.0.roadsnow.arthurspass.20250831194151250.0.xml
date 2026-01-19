@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.0.554.0.roadsnow.arthurspass.20250831194151250.0</identifier>
+  <sender>https://www.metservice.com</sender>
+  <sent>2025-09-01T07:41:51+12:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <references>https://www.metservice.com,2.49.0.0.554.0.roadsnow.arthurspass.20250831082139062.0,2025-08-31T20:21:39+12:00</references>
+  <info>
+    <category>Met</category>
+    <event>snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <onset>2025-09-02T00:00:00+12:00</onset>
+    <expires>2025-09-02T10:00:00+12:00</expires>
+    <senderName>Meteorological Service of New Zealand Limited</senderName>
+    <headline>Road Snowfall Warning</headline>
+    <description>Snow showers may affect the highest parts of the road overnight Monday and Tuesday morning. 2 to 4 cm of snow may accumulate above about 800 metres. </description>
+    <instruction>Note: A Road Snowfall Warning means there is a likelihood of snow settling on the road during the warning period. People intending to travel on this road should prepare for winter driving conditions. For information on the current status of the road and any closures, see the NZTA website.</instruction>
+    <web>https://metservice.com/warnings/home</web>
+    <parameter>
+      <valueName>NextUpdate</valueName>
+      <value>2025-09-01T21:00:00+12:00</value>
+    </parameter>
+    <parameter>
+      <valueName>ColourCode</valueName>
+      <value>Orange</value>
+    </parameter>
+    <parameter>
+      <valueName>ColourCodeHex</valueName>
+      <value>#FF8918</value>
+    </parameter>
+    <area>
+      <areaDesc>Arthur's Pass (SH73)</areaDesc>
+      <polygon>-42.870,171.553 -42.868,171.553 -42.865,171.555 -42.861,171.555 -42.857,171.557 -42.855,171.557 -42.853,171.558 -42.849,171.556 -42.845,171.557 -42.840,171.558 -42.837,171.560 -42.836,171.563 -42.837,171.564 -42.838,171.564 -42.841,171.563 -42.846,171.562 -42.849,171.561 -42.851,171.563 -42.853,171.563 -42.866,171.560 -42.869,171.558 -42.871,171.557 -42.876,171.558 -42.879,171.560 -42.881,171.559 -42.882,171.558 -42.888,171.558 -42.894,171.561 -42.898,171.561 -42.902,171.563 -42.907,171.562 -42.909,171.561 -42.921,171.561 -42.925,171.560 -42.928,171.561 -42.935,171.562 -42.944,171.566 -42.948,171.570 -42.952,171.570 -42.962,171.578 -42.967,171.581 -42.971,171.582 -42.977,171.593 -42.979,171.595 -42.987,171.592 -42.997,171.590 -43.005,171.592 -43.012,171.592 -43.019,171.599 -43.019,171.607 -43.020,171.610 -43.022,171.611 -43.023,171.610 -43.023,171.596 -43.019,171.594 -43.014,171.588 -42.997,171.586 -42.986,171.587 -42.980,171.590 -42.975,171.580 -42.973,171.577 -42.967,171.576 -42.962,171.573 -42.957,171.568 -42.954,171.566 -42.949,171.566 -42.946,171.561 -42.935,171.557 -42.925,171.555 -42.921,171.556 -42.908,171.556 -42.903,171.558 -42.898,171.556 -42.895,171.556 -42.888,171.553 -42.884,171.554 -42.882,171.552 -42.879,171.555 -42.878,171.553 -42.875,171.552 -42.870,171.553</polygon>
+    </area>
+  </info>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>SaWgAGATCHOkQsk1/V8LJ/hGyoxo2DuhzcGRTKAUGRE=</DigestValue></Reference></SignedInfo><SignatureValue>hVle9PhgiSV7ulry/wAaLc6u1Xl0ZScuj3MsJJNW/nASpvyipAahIyuaogtTwkVlWun82lQwv+eW&#13;
+XjMuY9OBEI5Xcfv8N4fTVhnBMj271jXcKkCUPjIKKUbp1doMUoiTkHxUVrzm02qhjNcA59btkaDM&#13;
+uzJvJKN4VCVlLJRW9iq+UyNcRNfLVHXO55uvGm7wF/fPpP2yD7ckO5SCF/z4sUHZlWXTo+fdXa+r&#13;
+8kKb41l2iaIFiewZ/xqAzvJyqVO3D6TH/Fw60mNqN7O/Mh0hyZakN6R5v0UeXUuD7kzO/YqGuwLW&#13;
+k5ERr0cCAkehhjFEx+KLkEw9BY/XZPH6QkSYcQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIID+zCCAuOgAwIBAgIEMFPb7TANBgkqhkiG9w0BAQsFADCBrTELMAkGA1UEBhMCTloxEzARBgNV&#13;
+BAgTCldlbGxpbmd0b24xEzARBgNVBAcTCldlbGxpbmd0b24xNjA0BgNVBAoTLU1FVEVPUk9MT0dJ&#13;
+Q0FMIFNFUlZJQ0UgT0YgTkVXIFpFQUxBTkQgTElNSVRFRDEfMB0GA1UECxMWSW5mb3JtYXRpb24g&#13;
+VGVjaG5vbG9neTEbMBkGA1UEAxMSY2FwLm1ldHNlcnZpY2UuY29tMB4XDTI0MTAyMzIwNTcyMloX&#13;
+DTI1MTAyMzIwNTcyMlowga0xCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpXZWxsaW5ndG9uMRMwEQYD&#13;
+VQQHEwpXZWxsaW5ndG9uMTYwNAYDVQQKEy1NRVRFT1JPTE9HSUNBTCBTRVJWSUNFIE9GIE5FVyBa&#13;
+RUFMQU5EIExJTUlURUQxHzAdBgNVBAsTFkluZm9ybWF0aW9uIFRlY2hub2xvZ3kxGzAZBgNVBAMT&#13;
+EmNhcC5tZXRzZXJ2aWNlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEQSEQm&#13;
+aHWxF5OkEnb+foJqD0uR+9+8oZIB9FNkv+xWq3pSls3N6YRNCmBFAAudD3l/hIDBaJ0Z4/GAAjGe&#13;
+Lj9mpZKqEmIJTdX3YXPm77MlZoHEtbJfOVy03yQ7Om9Nokkwndeiu6qmap0tx2rMlNporwwtZShO&#13;
+w9/5dMqxFiUq6tfCAMtr9x/OCpaC8x8OcmRAUPpITf2xxUin7CSCCKrF3kw+Jt+D8cAHsvnuf1nm&#13;
++xLVydXn8Oz7RWaWLqoco/igNoytFPXJWKFlZjVh/ljhsaF6rDIUVRWPWfGi+NIw7sKdGeyOpKQ9&#13;
+apODBH06nN3QCAqi/QVpL0AV24y2TdUCAwEAAaMhMB8wHQYDVR0OBBYEFIc0oCxzU5eJMw635u7B&#13;
+dyani7TnMA0GCSqGSIb3DQEBCwUAA4IBAQCtHcn3h7ZdIKxIRUpGTvnkfkv4Fa29kzRrd2ts8i7J&#13;
+n8dpCWPgt7k6l6RGkYa79YJaFCh/IJLjxkIJth5bBTLDc4co4NOUVnDvilw3lqQX/k+niJLxzbAW&#13;
+pkS+r5PjkwnRCYnW3HijfePFHj8JnPz5gOQ4IRe3lLjpZGfE0d/P3Agc8122C/p57FY3IfbYo837&#13;
+xJzAGPsiEvPZkMt4k+QXJLskwInfwH8yMK/xA8TVlNF48B1+8DDJy1kcS6q3AkkS8Zl9ysBVdgyp&#13;
+RwNXSV+BnhDaAh/nIFAZIevu+xX3ljuBrOBPPDUhVG0S9GFkQWOtdWfgXCaL/fYMG7NFxeXi</X509Certificate></X509Data></KeyInfo></Signature></alert>
