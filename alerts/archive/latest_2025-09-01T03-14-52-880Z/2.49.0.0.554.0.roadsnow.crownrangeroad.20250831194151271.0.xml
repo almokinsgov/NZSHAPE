@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.0.554.0.roadsnow.crownrangeroad.20250831194151271.0</identifier>
+  <sender>https://www.metservice.com</sender>
+  <sent>2025-09-01T07:41:51+12:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <references>https://www.metservice.com,2.49.0.0.554.0.roadsnow.crownrangeroad.20250831082139062.0,2025-08-31T20:21:39+12:00</references>
+  <info>
+    <category>Met</category>
+    <event>snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <onset>2025-09-02T00:00:00+12:00</onset>
+    <expires>2025-09-02T09:00:00+12:00</expires>
+    <senderName>Meteorological Service of New Zealand Limited</senderName>
+    <headline>Road Snowfall Warning</headline>
+    <description>Snow showers may affect the highest parts of the road overnight Monday and Tuesday morning. 1 to 2 cm of snow may accumulate above about 700 metres. </description>
+    <instruction>Note: A Road Snowfall Warning means there is a likelihood of snow settling on the road during the warning period. People intending to travel on this road should prepare for winter driving conditions. For information on the current status of the road and any closures, see the NZTA website.</instruction>
+    <web>https://metservice.com/warnings/home</web>
+    <parameter>
+      <valueName>NextUpdate</valueName>
+      <value>2025-09-01T21:00:00+12:00</value>
+    </parameter>
+    <parameter>
+      <valueName>ColourCode</valueName>
+      <value>Orange</value>
+    </parameter>
+    <parameter>
+      <valueName>ColourCodeHex</valueName>
+      <value>#FF8918</value>
+    </parameter>
+    <area>
+      <areaDesc>Crown Range Road</areaDesc>
+      <polygon>-44.981,168.853 -44.974,168.858 -44.972,168.863 -44.972,168.866 -44.974,168.867 -44.974,168.870 -44.976,168.873 -44.972,168.883 -44.972,168.885 -44.978,168.900 -44.981,168.902 -44.984,168.906 -44.990,168.907 -44.990,168.910 -44.991,168.912 -44.990,168.919 -44.994,168.922 -44.994,168.926 -44.992,168.930 -44.990,168.938 -44.979,168.941 -44.975,168.944 -44.972,168.951 -44.966,168.957 -44.957,168.954 -44.954,168.955 -44.951,168.957 -44.942,168.961 -44.937,168.966 -44.929,168.968 -44.926,168.969 -44.922,168.969 -44.918,168.971 -44.915,168.971 -44.903,168.982 -44.895,168.987 -44.889,168.996 -44.880,169.002 -44.880,169.003 -44.880,169.006 -44.883,169.006 -44.890,169.001 -44.898,168.991 -44.900,168.990 -44.909,168.983 -44.916,168.976 -44.918,168.976 -44.922,168.974 -44.926,168.974 -44.930,168.972 -44.938,168.971 -44.940,168.969 -44.943,168.965 -44.952,168.962 -44.955,168.960 -44.957,168.959 -44.965,168.962 -44.967,168.961 -44.975,168.955 -44.978,168.948 -44.980,168.947 -44.981,168.945 -44.988,168.944 -44.993,168.941 -44.995,168.933 -44.997,168.929 -44.998,168.926 -44.997,168.919 -44.996,168.916 -44.995,168.915 -44.995,168.909 -44.992,168.903 -44.986,168.901 -44.983,168.897 -44.980,168.896 -44.976,168.885 -44.980,168.873 -44.980,168.871 -44.977,168.866 -44.979,168.864 -44.980,168.859 -44.984,168.856 -44.983,168.853 -44.982,168.852 -44.981,168.853</polygon>
+    </area>
+  </info>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>nOqxzZizpG+j7vznNIpkZTmQtTW+0NmHbbIr9u+++us=</DigestValue></Reference></SignedInfo><SignatureValue>b35kjecXYwGpcg9K6ta74u76fPo2rVdwflAn9Ub24bd1z7g+JitIESYprWY5DiLVnq5UC/6orDlX&#13;
+7ryvOmt9VIaoccGDHzYTOzgFGDJG5uoMTgx2bCc3vuQxycdbfWUF/NzGlndjnvM2LdUBrGrCQqeJ&#13;
+Lypib++KbgfEynKoyU7b5+0fjAEwjtc+jxTidaFZIACNV8FEJHuErgne0l3KuRd9Xf8FlJ+tED9J&#13;
+qhIlXMSpWgrZ2HIST3Ug4LXdW4dfP69M1EcMDP1LJNBct1IHU8tP+6x4UzNo/VWE1Gao+PRrEmFG&#13;
+L+Td8lwho9lD4VdUHKB4SYruHO8oKc5kHTvzDg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIID+zCCAuOgAwIBAgIEMFPb7TANBgkqhkiG9w0BAQsFADCBrTELMAkGA1UEBhMCTloxEzARBgNV&#13;
+BAgTCldlbGxpbmd0b24xEzARBgNVBAcTCldlbGxpbmd0b24xNjA0BgNVBAoTLU1FVEVPUk9MT0dJ&#13;
+Q0FMIFNFUlZJQ0UgT0YgTkVXIFpFQUxBTkQgTElNSVRFRDEfMB0GA1UECxMWSW5mb3JtYXRpb24g&#13;
+VGVjaG5vbG9neTEbMBkGA1UEAxMSY2FwLm1ldHNlcnZpY2UuY29tMB4XDTI0MTAyMzIwNTcyMloX&#13;
+DTI1MTAyMzIwNTcyMlowga0xCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpXZWxsaW5ndG9uMRMwEQYD&#13;
+VQQHEwpXZWxsaW5ndG9uMTYwNAYDVQQKEy1NRVRFT1JPTE9HSUNBTCBTRVJWSUNFIE9GIE5FVyBa&#13;
+RUFMQU5EIExJTUlURUQxHzAdBgNVBAsTFkluZm9ybWF0aW9uIFRlY2hub2xvZ3kxGzAZBgNVBAMT&#13;
+EmNhcC5tZXRzZXJ2aWNlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEQSEQm&#13;
+aHWxF5OkEnb+foJqD0uR+9+8oZIB9FNkv+xWq3pSls3N6YRNCmBFAAudD3l/hIDBaJ0Z4/GAAjGe&#13;
+Lj9mpZKqEmIJTdX3YXPm77MlZoHEtbJfOVy03yQ7Om9Nokkwndeiu6qmap0tx2rMlNporwwtZShO&#13;
+w9/5dMqxFiUq6tfCAMtr9x/OCpaC8x8OcmRAUPpITf2xxUin7CSCCKrF3kw+Jt+D8cAHsvnuf1nm&#13;
++xLVydXn8Oz7RWaWLqoco/igNoytFPXJWKFlZjVh/ljhsaF6rDIUVRWPWfGi+NIw7sKdGeyOpKQ9&#13;
+apODBH06nN3QCAqi/QVpL0AV24y2TdUCAwEAAaMhMB8wHQYDVR0OBBYEFIc0oCxzU5eJMw635u7B&#13;
+dyani7TnMA0GCSqGSIb3DQEBCwUAA4IBAQCtHcn3h7ZdIKxIRUpGTvnkfkv4Fa29kzRrd2ts8i7J&#13;
+n8dpCWPgt7k6l6RGkYa79YJaFCh/IJLjxkIJth5bBTLDc4co4NOUVnDvilw3lqQX/k+niJLxzbAW&#13;
+pkS+r5PjkwnRCYnW3HijfePFHj8JnPz5gOQ4IRe3lLjpZGfE0d/P3Agc8122C/p57FY3IfbYo837&#13;
+xJzAGPsiEvPZkMt4k+QXJLskwInfwH8yMK/xA8TVlNF48B1+8DDJy1kcS6q3AkkS8Zl9ysBVdgyp&#13;
+RwNXSV+BnhDaAh/nIFAZIevu+xX3ljuBrOBPPDUhVG0S9GFkQWOtdWfgXCaL/fYMG7NFxeXi</X509Certificate></X509Data></KeyInfo></Signature></alert>
