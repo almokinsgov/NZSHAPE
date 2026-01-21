@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-01-21T22:06:40.702Z",
+  "fetchedAt": "2026-01-21T22:09:40.484Z",
   "timezone": "Pacific/Auckland",
   "trigger": {
     "type": "outages",
-    "previousSha256": "1a246f9bde0de3b64251d0cc0098ffa44c2d2a2f44b56c9835b8a6247ae11925",
-    "newSha256": "e2d8ec18910af121fed2ec1ff5084292c718a3fae77d6f60e119d11fef7c2bb6"
+    "previousSha256": "e2d8ec18910af121fed2ec1ff5084292c718a3fae77d6f60e119d11fef7c2bb6",
+    "newSha256": "9a619c4c09591422ed70a1a90bac20b45453064df5dde06b3bf39982e840bf2d"
   },
   "sources": {
     "outages": "https://outages.topenergy.co.nz/api/outages",
@@ -14,7 +14,7 @@
     "kmzAll": "https://outages.topenergy.co.nz/storage/kmz/polygonsAll.kmz",
     "mapUrl": "https://outages.topenergy.co.nz/"
   },
-  "archiveBase": "topenergy/archive/2026-01-22/20260122_110640",
+  "archiveBase": "topenergy/archive/2026-01-22/20260122_110940",
   "screenshot": {
     "attempted": true,
     "captured": true,
@@ -23,53 +23,53 @@
   "outageInfo": {
     "enabled": true,
     "currentDir": "topenergy/current/outages",
-    "archiveDir": "topenergy/archive/2026-01-22/20260122_110640/outages",
+    "archiveDir": "topenergy/archive/2026-01-22/20260122_110940/outages",
     "endpointTemplate": "https://outages.topenergy.co.nz/api/outage/{id}/info",
-    "totalIds": 17,
+    "totalIds": 16,
     "failedIds": []
   },
   "files": [
     {
       "key": "outages",
       "currentPath": "topenergy/current/outages.json",
-      "sha256": "e2d8ec18910af121fed2ec1ff5084292c718a3fae77d6f60e119d11fef7c2bb6",
+      "sha256": "9a619c4c09591422ed70a1a90bac20b45453064df5dde06b3bf39982e840bf2d",
       "sourceUrl": "https://outages.topenergy.co.nz/api/outages",
-      "byteLength": 1771
+      "byteLength": 1672
     },
     {
       "key": "regions",
       "currentPath": "topenergy/current/regions.json",
-      "sha256": "396242a63e1a0b2e35cc8353c66dc591ba1f8d449e099b57546a537a7f1369ae",
+      "sha256": "0fc717d3b1da3fafc11a79534216b2133bff49af78d4f5c43231c1b3de475b22",
       "sourceUrl": "https://outages.topenergy.co.nz/api/outages/regions",
-      "byteLength": 7375
+      "byteLength": 6979
     },
     {
       "key": "polygonsPlannedAll",
       "currentPath": "topenergy/current/polygonsPlannedAll.kmz",
-      "sha256": "d019b162ed4b09117a24e8c037aab07270fbaed99a8c9d751b10239017e28de0",
+      "sha256": "9c8dda508dfcd735012dc4aa980989b9343ae44deec461e7cc10393ada3e72b5",
       "sourceUrl": "https://outages.topenergy.co.nz/storage/kmz/polygonsPlannedAll.kmz",
       "byteLength": 15497
     },
     {
       "key": "polygonsActiveAll",
       "currentPath": "topenergy/current/polygonsActiveAll.kmz",
-      "sha256": "edd87058f0f623bf91ee6a48145a0103420b2eb996d84440dfc83a3ea0554a88",
+      "sha256": "2e8991e9ddf7dde2f45960debc3aecc9207b8e5b48afe0ac3972cf596f5d301f",
       "sourceUrl": "https://outages.topenergy.co.nz/storage/kmz/polygonsActiveAll.kmz",
-      "byteLength": 7360
+      "byteLength": 6304
     },
     {
       "key": "polygonsAll",
       "currentPath": "topenergy/current/polygonsAll.kmz",
-      "sha256": "b189a3bca0045e4a1e413e87d6a2fc2fc4b65257138a6d8aac3e4269d70c107d",
+      "sha256": "cf8a342b1f98b92b1d471898ea5aec000b17670533eae38401ade0f422f20289",
       "sourceUrl": "https://outages.topenergy.co.nz/storage/kmz/polygonsAll.kmz",
-      "byteLength": 19825
+      "byteLength": 18811
     },
     {
       "key": "mapScreenshot",
       "currentPath": "topenergy/current/mapScreenshot.png",
-      "sha256": "5aaf27d200f676186b30d5dfecdac22bfa6cf86973992ccb8ac32ddf4e560933",
+      "sha256": "64f301b230cdf134727b7e4cb10b32ee69ab4e652ff54afc396334084125208c",
       "sourceUrl": "https://outages.topenergy.co.nz/",
-      "byteLength": 422139
+      "byteLength": 419246
     }
   ]
 }
