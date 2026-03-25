@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "schema": "ramm-road-closures-snapshot",
+    "pulledAtUtc": "2026-02-15T12:26:14.948Z",
+    "pulledAtLocal": "2026-02-16T01:26:14",
+    "source": {
+      "baseUrl": "https://api-auea.ramm.com/v1",
+      "path": "/data/ud_road_close_restrict",
+      "params": {
+        "getGeometry": "true",
+        "expandLookups": "true"
+      },
+      "authMode": "header-bearer",
+      "url": "https://api-auea.ramm.com/v1/data/ud_road_close_restrict?getGeometry=true&expandLookups=true"
+    },
+    "rowCount": 3,
+    "contentHashAlgo": "sha256",
+    "hashNormalization": {
+      "deepKeySort": true,
+      "topLevelArrayOrderIndependent": true,
+      "hashIgnoreKeys": [
+        "hoursvalidated"
+      ]
+    },
+    "contentHash": "71b151749418cf32fcc81718b705ce628a28083b2518231f1ea147b580604999",
+    "variant": "public_closures",
+    "filtersApplied": {
+      "calculationColumns": {
+        "enabled": true,
+        "requireGeometryOrEastingNorthing": true,
+        "requireRoadStatus": true,
+        "requireRoadIdOrName": true
+      },
+      "quickAction": {
+        "enabled": false,
+        "name": "not test after jan 1st and doesnt have a end datetime",
+        "c_description_not_equals": "test",
+        "s_datetime_after_iso": "2026-01-01T17:07",
+        "e_datetime_is_empty": true
+      },
+      "closuresGroup": {
+        "enabled": true,
+        "name": "Closures Group (Road Closures)",
+        "road_status_contains": "close",
+        "caseInsensitive": true
+      },
+      "publicColumnProjection": {
+        "enabled": true,
+        "columns": [
+          "road_id",
+          "s_datetime",
+          "e_datetime",
+          "type",
+          "cause",
+          "detour",
+          "c_description",
+          "road_status",
+          "notes",
+          "added_on",
+          "easting",
+          "northing",
+          "info_source",
+          "info_updated",
+          "event_name",
+          "detour_details",
+          "geometry"
+        ]
+      }
+    },
+    "filterCounts": {
+      "total": 296,
+      "afterCalculationColumns": 296,
+      "afterQuickActionFilter": 296,
+      "afterClosures": 3,
+      "afterPublicColumnProjection": 3
+    }
+  },
+  "data": [
+    {
+      "road_id": "WHANGATANE DRIVE",
+      "s_datetime": "2024-04-11T11:00:35",
+      "e_datetime": "2024-04-11T00:00:00",
+      "type": "Planned",
+      "cause": "Event",
+      "detour": true,
+      "c_description": "Test",
+      "road_status": "Road Closed",
+      "notes": "Test",
+      "added_on": "2024-04-11T00:00:00",
+      "easting": 1623550.7634,
+      "northing": 6116342.0487,
+      "info_source": "Public",
+      "info_updated": "2024-04-11T11:00:35",
+      "event_name": "Storm Event Next XXXX",
+      "detour_details": "Test",
+      "geometry": "POINT (1623550.76338882 6116342.04873899)"
+    },
+    {
+      "road_id": "WIRELESS ROAD",
+      "s_datetime": "2024-04-11T11:46:09",
+      "e_datetime": null,
+      "type": "Unplanned",
+      "cause": "Road obstruction",
+      "detour": false,
+      "c_description": "test",
+      "road_status": "Road Closed",
+      "notes": null,
+      "added_on": "2024-04-11T00:00:00",
+      "easting": null,
+      "northing": null,
+      "info_source": "Public",
+      "info_updated": "2024-04-11T11:46:09",
+      "event_name": "Storm Event Nov 2022",
+      "detour_details": null,
+      "geometry": "LINESTRING (1623418.86 6117065.03, 1623404.76 6117068.48, 1623324.988134715 6117096.0969818654)"
+    },
+    {
+      "road_id": "TITORE WAY",
+      "s_datetime": "2026-01-22T09:49:57",
+      "e_datetime": "2026-01-28T12:00:00",
+      "type": "Unplanned",
+      "cause": "Underslip",
+      "detour": false,
+      "c_description": "underslip - existing, worsened with heavy rainfall event.",
+      "road_status": "Closed to Heavy traffic",
+      "notes": null,
+      "added_on": "2026-01-22T00:00:00",
+      "easting": 1701769.0923,
+      "northing": 6098091.1895,
+      "info_source": "Public",
+      "info_updated": "2026-01-29T13:40:00",
+      "event_name": "Rain Event January 2026",
+      "detour_details": null,
+      "geometry": "POINT (1701769.09230595 6098091.18949275)"
+    }
+  ]
+}
