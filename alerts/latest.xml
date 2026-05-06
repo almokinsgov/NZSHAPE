@@ -1,86 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta content="max-age=900" http-equiv="Cache-Control"/>
-  <meta content="noindex" name="robots"/>
-  <title>Brief Forecast for all New Zealand</title>
-  <link href="/met.css" rel="stylesheet" type="text/css"/>
-  <script type="text/javascript">setTimeout( function() {window.location.href = 'http://www.metservice.com';}, 900000);</script>
-</head>
-<body>
-  <div id="page_wrapper">
-    <div id="header_wrapper">
-      <div id="header"/>
-    </div>
-    <div id="nav_menu_wrapper">
-      <div id="nav">
-        <div id="nav_menu">
-          <ul>
-            <li>
-              <a class="active" href="/index.html">Forecast</a>
-            </li>
-            <li>
-              <a class="passive" href="/warning.html">Warnings</a>
-            </li>
-            <li>
-              <a class="passive" href="/marine.html">Marine</a>
-            </li>
-            <li>
-              <a class="passive" href="/mountain.html">Mountain</a>
-            </li>
-            <li>
-              <a class="passive" href="/outlook.html">Outlooks</a>
-            </li>
-            <li>
-              <a class="passive" href="/rain_radar.html">Rain Radar</a>
-            </li>
-            <li>
-              <a class="passive" href="/chart.html">Charts</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div id="content">
-      <div style="background:#e4eff6"><a href="http://www.metservice.com">www.metservice.com</a> is currently unavailable so you have been redirected to our backup site www2.metservice.com.<br/>This site contains all the safety critical information and includes MetService Severe Weather Watches and Warnings, MetService rain radar imagery and brief forecast information.<br/>We are working to restore <a href="http://www.metservice.com">www.metservice.com</a> as soon as we possibly can. You can also follow us on <a href="https://www.facebook.com/MetService">Facebook @MetService</a> and <a href="https://twitter.com/MetService">Twitter @MetService</a></div>
-      <div id="main">
-        <h1 class="title">Brief Forecast for all New Zealand</h1>
-        <h1 class="validity">Valid to Midnight Thursday, 07-May</h1>
-        <p class="CAPTION">Northland to Taranaki</p>
-        <p class="PARAGRAPH">Mostly cloudy with isolated showers.</p>
-        <p class="CAPTION">Coromandel Peninsula, Bay of Plenty, and the central high country</p>
-        <p class="PARAGRAPH">Cloudy with a few showers.</p>
-        <p class="CAPTION">Whanganui to Wellington</p>
-        <p class="PARAGRAPH">Partly cloudy, with a possible shower south of Manawatu. Rain developing in Wellington this evening.</p>
-        <p class="CAPTION">Gisborne, Hawke's Bay and Wairarapa</p>
-        <p class="PARAGRAPH">Mainly fine with increasing high cloud. Light rain for southern Wairarapa tonight.</p>
-        <p class="CAPTION">Nelson, Buller and Marlborough (excluding the Kaikoura Coast)</p>
-        <p class="PARAGRAPH">Showers turning to rain this morning, with heavy falls from around midday.</p>
-        <p class="CAPTION">The Kaikoura Coast, Canterbury, Otago and Southland</p>
-        <p class="PARAGRAPH">Occasional rain, clearing this afternoon.</p>
-        <p class="CAPTION">Grey to Fiordland</p>
-        <p class="PARAGRAPH">Rain with heavy falls and possible thunderstorms, gradually easing in the south this evening.</p>
-        <p class="CAPTION">Chatham Islands</p>
-        <p class="PARAGRAPH">Cloudy this morning with a possible light shower, then becoming mainly fine.</p>
-        <h1 class="validity">Outlook for following three days</h1>
-        <p class="CAPTION">Friday</p>
-        <p class="PARAGRAPH">North Island: Showers, turning to rain in the west late evening. Northerlies rising to gale in exposed places.<br/>South Island: Periods of rain in the north and west, with heavy falls, and occasional rain spreading elsewhere. Northwest gales in exposed places.</p>
-        <p class="CAPTION">Saturday</p>
-        <p class="PARAGRAPH">North Island: Rain clearing early then a few showers in the west, and becoming fine in the east. Gale northwesterlies in exposed places, easing.<br/>South Island: Rain in the west and south, easing to few showers in the morning. Mainly fine elsewhere. Gale northwesterlies easing.</p>
-        <p class="CAPTION">Sunday</p>
-        <p class="PARAGRAPH">North Island: Fine spells and isolated showers in the west and north. A few showers developing in the south later.<br/>South Island: Showers in the west and south. Mainly fine at first elsewhere, but showers spreading north later.</p>
-        <p class="CAPTION">Chatham Islands</p>
-        <p class="PARAGRAPH">Cloudy periods and the odd shower, turning to rain for a time Saturday. Strong northerlies, easing late Saturday.</p>
-        <p class="issued">Issued: 4:50am Thursday 7 May 2026</p>
-      </div>
-    </div>
-  </div>
-  <div id="end_content"/>
-  <div id="footer">
-    <p>&copy; 2026 MetService. All rights reserved</p>
-  </div>
-  <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
-  <script type="text/javascript">try { var pageTracker = _gat._getTracker("UA-1951998-3"); pageTracker._trackPageview(); } catch(err) {}</script>
-</body>
-</html>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://alerts.metservice.com/cap/atom</id>
+  <link href="https://metservice.com"/>
+  <updated>2026-05-06T20:09:09+12:00</updated>
+  <title>Current Watches, Warnings and Advisories for New Zealand issued by MetService</title>
+  <rights>Copyright Meteorological Service of New Zealand Limited, 2026. Licensed under Creative Commons BY 4.0.</rights>
+  <entry>
+    <title>Heavy Rain Watch</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.1</id>
+    <category term="Met" />
+    <summary>Periods of heavy rain, and amounts may exceed warning criteria. Impact: Streams and rivers may rise rapidly. Surface flooding, slips, and difficult driving conditions possible. Chance of upgrading to a Warning: High. Changes: Watch expanded to include Nelson Lakes National Park.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.1"/>
+  </entry>
+  <entry>
+    <title>Heavy Rain Warning - Orange</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.7</id>
+    <category term="Met" />
+    <summary>Expect 250 to 350 mm of rain, but possibly as much as 400 mm about the ranges. Peaks rates of 20 to 30 mm/h expected during Friday with thunderstorms possible. Impact: Streams and rivers may rise rapidly. Surface flooding, slips, and difficult driving conditions possible. Chance of upgrading to a Red Warning: Low.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.7"/>
+  </entry>
+  <entry>
+    <title>Heavy Rain Warning - Orange</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.6</id>
+    <category term="Met" />
+    <summary>Expect 200 to 300 mm of rain about the ranges, and lesser amounts near the coast. Peak rates of 15 to 25 mm/h expected during Friday with thunderstorms possible. Impact: Streams and rivers may rise rapidly. Surface flooding, slips, and difficult driving conditions possible. Chance of upgrading to a Red Warning: Low.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.6"/>
+  </entry>
+  <entry>
+    <title>Heavy Rain Watch</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.0</id>
+    <category term="Met" />
+    <summary>Periods of heavy rain. Rainfall amounts may approach warning criteria, especially about the ranges. Note, another period of heavy rain is expected from late Friday morning. Chance of upgrading to a Warning: Moderate.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.0"/>
+  </entry>
+  <entry>
+    <title>Heavy Rain Warning - Orange</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.4</id>
+    <category term="Met" />
+    <summary>Expect 120 to 180mm near the Divide, with 80 to 120mm within 15km east of the divide. Peak rates of 20 to 30mm in possible thunderstorms Thursday afternoon. Freezing level about 3000 metres. Note, another period of heavy rain is expected from Friday afternoon. Impact: Streams and rivers may rise rapidly. Surface flooding, slips, and difficult driving conditions possible. Chance of upgrading to a Red Warning: Minimal. Changes: Watch upgraded to an Orange Warning.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.4"/>
+  </entry>
+  <entry>
+    <title>Heavy Rain Warning - Orange</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.5</id>
+    <category term="Met" />
+    <summary>Expect 200 to 300 mm of rain about the ranges, and lesser amounts near the coast. The largest accumulations are likely about and south of the glaciers, where some models indicate 350 mm is possible about the ranges. Peak rates of 25 to 35 mm/h expected during Thursday with thunderstorms possible.  Note, another period of heavy rain is expected from Friday afternoon. Impact: Streams and rivers may rise rapidly. Surface flooding, slips, and difficult driving conditions possible. Chance of upgrading to a Red Warning: Low.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.5"/>
+  </entry>
+  <entry>
+    <title>Heavy Rain Warning - Orange</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.3</id>
+    <category term="Met" />
+    <summary>Expect 100 to 150mm to accumulate near the divide, with 70 to 100mm within 15 km east of the divide. Peak rates 20 to 30mm per hour in possible thunderstorms during Thursday morning. Freezing level about 3000 metres.  Note, another period of heavy rain is expected from Friday afternoon. Impact: Streams and rivers may rise rapidly. Surface flooding, slips, and difficult driving conditions possible. Chance of upgrading to a Red Warning: Minimal. Changes: Watch upgraded to an Orange Warning.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.3"/>
+  </entry>
+  <entry>
+    <title>Heavy Rain Warning - Orange</title>
+    <id>2.49.0.0.554.0.severeweather.nz.20260506080909369.2</id>
+    <category term="Met" />
+    <summary>Expect a further 100 to 140 mm of rain on top of what has already fallen, especially north of George Sound. Peak rates of 15 to 25 mm/h expected Thursday morning with thunderstorms possible. Note, another period of heavy rain is expected from Friday afternoon. Impact: Streams and rivers may rise rapidly. Surface flooding, slips, and difficult driving conditions possible. Chance of upgrading to a Red Warning: Minimal.</summary>
+    <updated>2026-05-06T20:09:09+12:00</updated>
+    <published>2026-05-06T20:09:09+12:00</published>
+    <author>
+      <name>Meteorological Service of New Zealand Limited</name>
+    </author>
+    <link rel="related" type="application/cap+xml" href="https://alerts.metservice.com/cap/alert?id=2.49.0.0.554.0.severeweather.nz.20260506080909369.2"/>
+  </entry>
+</feed>
